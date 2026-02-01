@@ -1,5 +1,5 @@
 --==============================================================--
---      BOOSTER 29 + GUI ARCO-ÍRIS DO SEU SCRIPT
+--     CHILLI BOOSTER 29 + GUI ARCO-ÍRIS DO SEU SCRIPT
 --==============================================================--
 
 local Players = game:GetService("Players")
@@ -17,7 +17,7 @@ end
 --======================== CONFIG ==============================--
 
 local SPEED = 50
-local TOGGLE = Enum.KeyCode.F
+local TOGGLE = Enum.KeyCode.E
 local Enabled = false
 local SpeedConn
 
@@ -39,7 +39,7 @@ local mainGuiFrame = Instance.new("Frame")
 mainGuiFrame.Name = "MainFrame"
 mainGuiFrame.Size = UDim2.new(0, GUI_WIDTH, 0, GUI_OUTER_HEIGHT)
 mainGuiFrame.AnchorPoint = Vector2.new(1, 0)
-mainGuiFrame.Position = UDim2.new(1, -9, 0, 250)
+mainGuiFrame.Position = UDim2.new(1, -9, 0, 350)
 mainGuiFrame.BackgroundColor3 = Color3.fromRGB(35,35,50)
 mainGuiFrame.BorderSizePixel = 0
 mainGuiFrame.Parent = screenGui
@@ -78,7 +78,7 @@ Instance.new("UICorner", innerFrame).CornerRadius = UDim.new(0,10)
 local titleLabel = Instance.new("TextLabel")
 titleLabel.Size = UDim2.new(1,0,0,TITLE_HEIGHT)
 titleLabel.Position = UDim2.new(0,0,0,0)
-titleLabel.Text = "⚡Dona Speed Hub⚡"
+titleLabel.Text = "⚡ Dona Speed Hub⚡"
 titleLabel.Font = Enum.Font.GothamBold
 titleLabel.TextSize = 16
 titleLabel.TextColor3 = Color3.fromRGB(255,255,255)
@@ -124,7 +124,7 @@ end
 local speedLabel = Instance.new("TextLabel")
 speedLabel.Size = UDim2.new(0.1,-20,0,SPEED_LABEL_HEIGHT)
 speedLabel.Position = UDim2.new(0,PADDING,0,TITLE_HEIGHT+PADDING)
-speedLabel.Text = "Speed Value: 29"
+speedLabel.Text = "Speed Value: 55"
 speedLabel.Font = Enum.Font.GothamBold
 speedLabel.TextSize = 14
 speedLabel.TextColor3 = Color3.fromRGB(150,150,255)
