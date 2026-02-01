@@ -124,7 +124,7 @@ end
 local speedLabel = Instance.new("TextLabel")
 speedLabel.Size = UDim2.new(0.1,-20,0,SPEED_LABEL_HEIGHT)
 speedLabel.Position = UDim2.new(0,PADDING,0,TITLE_HEIGHT+PADDING)
-speedLabel.Text = "Speed Value: 55"
+speedLabel.Text = "Speed Value: 50"
 speedLabel.Font = Enum.Font.GothamBold
 speedLabel.TextSize = 14
 speedLabel.TextColor3 = Color3.fromRGB(150,150,255)
