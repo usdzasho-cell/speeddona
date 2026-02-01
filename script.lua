@@ -16,7 +16,7 @@ end
 
 --======================== CONFIG ==============================--
 
-local SPEED = 29
+local SPEED = 50
 local TOGGLE = Enum.KeyCode.F
 local Enabled = false
 local SpeedConn
